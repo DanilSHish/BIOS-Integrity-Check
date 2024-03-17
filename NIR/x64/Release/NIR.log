@@ -1,0 +1,19 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр сборки добавит косую черту, поскольку она необходима для правильного определения каталога Output.
+cl : командная строка warning D9025: переопределение "/sdl" на "/GS-"
+  Main.c
+C:\EfiWorkSpace\Projects\NIR\tmp\HashBase.h(4,1): warning C4047: инициализация: "void *" отличается по уровням косвенного обращения от "int"
+C:\EfiWorkSpace\Projects\NIR\tmp\HashBase.h(9,1): warning C4047: инициализация: "void *" отличается по уровням косвенного обращения от "int"
+C:\EfiWorkSpace\Projects\NIR\tmp\HashBase.h(14,1): warning C4047: инициализация: "void *" отличается по уровням косвенного обращения от "int"
+C:\EfiWorkSpace\Projects\NIR\tmp\HashBase.h(19,1): warning C4047: инициализация: "void *" отличается по уровням косвенного обращения от "int"
+C:\EfiWorkSpace\Projects\NIR\tmp\HashBase.h(24,1): warning C4047: инициализация: "void *" отличается по уровням косвенного обращения от "int"
+C:\EfiWorkSpace\Projects\NIR\NIR\Main.c(32,30): warning C4013: GetSizeBios: нет определения; предполагается "extern" с возвратом типа "int"
+C:\EfiWorkSpace\Projects\NIR\NIR\Main.c(33,8): warning C4013: PrintF: нет определения; предполагается "extern" с возвратом типа "int"
+C:\EfiWorkSpace\Projects\NIR\NIR\Main.c(68,20): warning C4013: WriteFile: нет определения; предполагается "extern" с возвратом типа "int"
+C:\EfiWorkSpace\Projects\NIR\NIR\Main.c(108,18): warning C4013: HexStringToBytes: нет определения; предполагается "extern" с возвратом типа "int"
+C:\EfiWorkSpace\Projects\NIR\NIR\Main.c(348,62): warning C4133: функция: несовместимые типы - из "HASH *" в "const UINT8 *"
+  Создание кода
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 53 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+Crt.lib(memset.obj) : warning LNK4099: "vc120.pdb" PDB не найден с "Crt.lib(memset.obj)" или на "C:\EfiWorkSpace\Projects\bin\vc120.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+  NIR.vcxproj -> C:\EfiWorkSpace\Projects\bin\NIR.efi
